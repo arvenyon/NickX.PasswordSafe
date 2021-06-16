@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Image x:Key="Default" Source="/Resources/Images/default.png" />
+    <Image x:Key="Workstation" Source="/Resources/Images/workstation.png" />
+    <Image x:Key="Laptop" Source="/Resources/Images/laptop.png" />
+    <Image x:Key="Smartphone" Source="/Resources/Images/smartphone.png" />
+    <Image x:Key="Server" Source="/Resources/Images/server.png" />
+    <Image x:Key="Switch" Source="/Resources/Images/switch.png" />
+    <Image x:Key="Firewall" Source="/Resources/Images/firewall.png" />
+    <Image x:Key="DeskPhone" Source="/Resources/Images/deskphone.png" />
+    <Image x:Key="DockingStation" Source="/Resources/Images/dockingstation.png" />
+    <Image x:Key="Mouse" Source="/Resources/Images/mouse.png" />
+    <Image x:Key="Keyboard" Source="/Resources/Images/keyboard.png" />
+    <Image x:Key="Monitor" Source="/Resources/Images/monitor.png" />
+    <Image x:Key="HardDisk" Source="/Resources/Images/harddisk.png" />
+    <Image x:Key="SolidStateDisk" Source="/Resources/Images/solidstatedisk.png" />
+    <Image x:Key="GraphicsCard" Source="/Resources/Images/graphicscard.png" />
+    <Image x:Key="Processor" Source="/Resources/Images/processor.png" />
+    <Image x:Key="PowerSupply" Source="/Resources/Images/powersupply.png" />
+    <Image x:Key="Motherboard" Source="/Resources/Images/motherboard.png" />
+    <Image x:Key="RandomAccessMemory" Source="/Resources/Images/randomaccessmemory.png" />
+    <Image x:Key="Printer" Source="/Resources/Images/printer.png" />
+</ResourceDictionary>
