@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Win32;
 using NickX.PasswordSafe.WebAPI.Domain.Repositories;
 using NickX.PasswordSafe.WebAPI.Domain.Services.Classes;
 using NickX.PasswordSafe.WebAPI.Domain.Services.Interfaces;
@@ -29,7 +30,7 @@ namespace NickX.PasswordSafe.WebAPI
         {
             services.AddMvc(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Latest);
 
-            var conString = @$"Server=P340-DH\DEV;Database=4ce97e776a6d43f1a63a129b552242fb;User Id=sa;Password=DiesisteinKey@1998;";
+            var conString = Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\NickX.PasswordSafe", "SqlConnectionString", null).ToString();
             services.AddDbContext<SqlDbContext>(options => options.UseSqlServer(conString));
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
