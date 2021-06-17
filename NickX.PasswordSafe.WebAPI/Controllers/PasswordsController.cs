@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NickX.PasswordSafe.WebAPI.Domain.Models;
 using NickX.PasswordSafe.WebAPI.Domain.Services.Interfaces;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace NickX.PasswordSafe.WebAPI.Controllers
 {
+    [Authorize]
     [Route("/api/[controller]")]
     public class PasswordsController : Controller
     {
