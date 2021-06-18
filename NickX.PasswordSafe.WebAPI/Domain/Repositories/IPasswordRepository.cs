@@ -1,4 +1,4 @@
-﻿using NickX.PasswordSafe.WebAPI.Domain.Models;
+﻿using NickX.PasswordSafe.Models.Main;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

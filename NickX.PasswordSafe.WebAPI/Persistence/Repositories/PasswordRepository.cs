@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NickX.PasswordSafe.WebAPI.Domain.Models;
+using NickX.PasswordSafe.Models.Main;
 using NickX.PasswordSafe.WebAPI.Domain.Repositories;
 using NickX.PasswordSafe.WebAPI.Persistence.Contexts;
 using System.Collections.Generic;

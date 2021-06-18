@@ -1,8 +1,9 @@
-﻿using System;
+﻿using NickX.PasswordSafe.Models.Main;
+using System;
 
-namespace NickX.PasswordSafe.WebAPI.Domain.Models
+namespace NickX.PasswordSafe.Models.Resources
 {
-    public class Password
+    public class PasswordResource
     {
         public int Id { get; set; }
         public DateTime DateCreate { get; set; }
@@ -12,8 +13,6 @@ namespace NickX.PasswordSafe.WebAPI.Domain.Models
         public string Key { get; set; }
         public string Url { get; set; }
         public string Domain { get; set; }
-
-        public int CategoryId { get; set; }
         public Category Category { get; set; }
     }
 }

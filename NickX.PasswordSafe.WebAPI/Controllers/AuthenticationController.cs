@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NickX.PasswordSafe.Models.Main;
 using NickX.PasswordSafe.WebAPI.Domain.Manager.Interfaces;
-using NickX.PasswordSafe.WebAPI.Domain.Models;
 
 namespace NickX.PasswordSafe.WebAPI.Controllers
 {

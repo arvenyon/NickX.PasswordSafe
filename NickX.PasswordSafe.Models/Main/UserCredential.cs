@@ -1,4 +1,4 @@
-﻿namespace NickX.PasswordSafe.WebAPI.Domain.Models
+﻿namespace NickX.PasswordSafe.Models.Main
 {
     public class UserCredential
     {

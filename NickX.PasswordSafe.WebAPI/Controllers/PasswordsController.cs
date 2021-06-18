@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NickX.PasswordSafe.WebAPI.Domain.Models;
+using NickX.PasswordSafe.Models.Main;
 using NickX.PasswordSafe.WebAPI.Domain.Services.Interfaces;
 using NickX.PasswordSafe.WebAPI.Resources;
 using NickX.PasswordSafe.WebAPI.Utils.Extensions;

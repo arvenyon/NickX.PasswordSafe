@@ -1,5 +1,5 @@
-﻿using NickX.PasswordSafe.WebAPI.Domain.Communication;
-using NickX.PasswordSafe.WebAPI.Domain.Models;
+﻿using NickX.PasswordSafe.Models.Main;
+using NickX.PasswordSafe.WebAPI.Domain.Communication;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

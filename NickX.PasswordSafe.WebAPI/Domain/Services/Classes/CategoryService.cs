@@ -1,5 +1,5 @@
-﻿using NickX.PasswordSafe.WebAPI.Domain.Communication;
-using NickX.PasswordSafe.WebAPI.Domain.Models;
+﻿using NickX.PasswordSafe.Models.Main;
+using NickX.PasswordSafe.WebAPI.Domain.Communication;
 using NickX.PasswordSafe.WebAPI.Domain.Repositories;
 using NickX.PasswordSafe.WebAPI.Domain.Services.Interfaces;
 using NickX.PasswordSafe.WebAPI.Domain.UnitOfWorkManagement;

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NickX.PasswordSafe.WebAPI.Domain.Models
+namespace NickX.PasswordSafe.Models.Main
 {
     public class Category
     {
